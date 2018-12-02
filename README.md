@@ -1,6 +1,7 @@
 # Pytorch-Matching-Networks
 
 Please look into the Jupyter Notebook to understand the Matching networks implementation for one-shot omniglot Classification
+You may run this notebook on google colab by following this URL - https://colab.research.google.com/github/RameshArvind/Pytorch-Matching-Networks/blob/master/Torch_Matching_Net_Omniglot.ipynb
 
 # TODO Items <br>
 <s>Make dataloader - To speed up training</s> - DONE - Loading all the numpy images at start speeds up things by a TON <br>
