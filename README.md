@@ -2,7 +2,7 @@
 
 Please look into the Jupyter Notebook to understand the Matching networks implementation for one-shot omniglot Classification
 
-#TODO Items
+# TODO Items <br>
 <s>Make dataloader - To speed up training</s> - DONE - Loading all the numpy images at start speeds up things by a TON <br>
 <s>Figure out what optimizer was used - SGD/ADAM? </s>- ADAM WORKS <br>
 #<s>Use image augmentation </s> - Done <br>
