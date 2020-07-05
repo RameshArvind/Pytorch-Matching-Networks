@@ -6,3 +6,5 @@ Our goal as part of this notebook is to solve the one-shot learning problem for 
 
 Please look into the Jupyter Notebook to understand the Matching networks implementation for one-shot omniglot Classification
 You may run this notebook on [Google Colab by following this URL](https://colab.research.google.com/github/RameshArvind/Pytorch-Matching-Networks/blob/master/Torch_Matching_Net_Omniglot.ipynb)
+
+Pre-Trained weights are also available to view the results of our model.
