@@ -1,16 +1,8 @@
-# Pytorch-Matching-Networks
+# Matching Networks for One Shot Learning
+
+Implmentation of the paper titled ["Matching Networks for One Shot Learning"](https://arxiv.org/abs/1606.04080) from Deepmind using PyTorch.
+
+Our goal as part of this notebook is to solve the one-shot learning problem for the omniglot dataset. We aim to learn a model that given a set of images, its associated labels and a target image, we should be able to correctly assign the label of the target image from the provided labels.
 
 Please look into the Jupyter Notebook to understand the Matching networks implementation for one-shot omniglot Classification
 You may run this notebook on google colab by following this URL - https://colab.research.google.com/github/RameshArvind/Pytorch-Matching-Networks/blob/master/Torch_Matching_Net_Omniglot.ipynb
-
-# TODO Items <br>
-<s>Make dataloader - To speed up training</s> - DONE - Loading all the numpy images at start speeds up things by a TON <br>
-<s>Figure out what optimizer was used - SGD/ADAM? </s>- ADAM WORKS <br>
-#<s>Use image augmentation </s> - Done <br>
-<s>There is still something wrong with the network - Probably something with the way augmentation is done?</s> There isn't a problem with augmentation, rather the training and testing set provided by default have different "distributions". Need to investigate this further. Fixed by mixing the provided test and train set and creating new Train/Dev/Test sets. <br>
-<s>Setup a way to log training of models</s> - Done via integraion with comet.ml <br>
-Setup Hyperparameter Optimization <br>
-Use a high level pytorch API to setup training loops and Checkpointing - PyTorch Ignite <br>
-Using a dense layer at the end during embedding was causing the network to converge faser and better - Figure out why <br>
-<s>Work on the LSTM based embedding</s> - Done Albeit incorrectly <br>
-Implement Custom LSTM Cell which has hidden weights which can accept concatenated input <br>
